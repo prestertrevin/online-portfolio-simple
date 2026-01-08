@@ -12,26 +12,56 @@
     <body>
         <header>
             <nav>
-                <a class="nav-link active" href="index.html">Home</a>
-                <a class="nav-link" href="projects.html">Projects</a>
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="#landing-page">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </nav>
         </header>
         <main>
-            <div class="landing-page">
+            <!--    LANDING PAGE   -->
+            <div class="landing-page" id="landing-page">
                 <h1>Trevin Prester</h1>
                 <h2>Frontend Developer</h2>
             </div>
-            <article>
-                <section>
-                    <h2>html with proper layout, no stlying</h2>
-                    <hr/>
-                </section>
-                <section>
-                    <p> this is my description</p>
-                </section>
-            </article>
+            <!--    ABOUT PAGE   -->
+            <div class="about-page" id="about">
+
+            </div>
+            <!--    PROJECTS PAGE   -->
+            <div class="project-page" id="projects">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <p class="card-text">This is some text within the card.</p>
+                        <a class="card-button" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="card card-blue">
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <p class="card-text">This is some text within the card.</p>
+                        <a class="card-button" href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!--    CONTACT PAGE   -->
+            <div class="contact-page" id="contact">
+                <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div>
+                    <textarea class="form-group"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            </div>
         </main>
         <footer>
             <p> &copy; 2026 Trevin Prester. All rights reserved.</p>
