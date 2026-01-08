@@ -1,0 +1,68 @@
+/* --- Header Styles --- */
+header {
+  background-color: dimgray;
+  padding: 20px;
+  text-align: center;
+}
+
+/* --- Body Styles --- */
+body {
+  color: rgb(255, 255, 255); 
+  background-color: gray;
+  margin: 0;
+}
+
+/* --- Navigation --- */
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+  background-color: lightgray;
+}
+.nav-link.active {
+  background-color: blue;
+  color: white;
+}
+
+/* --- Card --- */
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* --- Footer Styles --- */
+footer {
+  background-color: dimgray;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8em;
+}
