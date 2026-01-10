@@ -11,60 +11,61 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a class="nav-link active" href="#landing-page">Home</a>
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#contact">Contact</a>
+            <nav class="navigation-bar">
+                <ul class="navigation"> 
+                    <li class="navigation__item active" id="navigation__landing-page">
+                        <a href="#landing-page">Home</a>
+                    </li>
+                    <li class="navigation__item" id="navigation__about">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="navigation__item" id="navigation__projects">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="navigation__item" id="navigation__contact">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <main>
             <!--    LANDING PAGE   -->
             <div class="landing-page" id="landing-page">
-                <h1>Trevin Prester</h1>
-                <h2>Frontend Developer</h2>
+                <div class="landing-page__header">Trevin Prester</div>
             </div>
             <!--    ABOUT PAGE   -->
-            <div class="about-page" id="about">
-
+            <div class="about" id="about">
+                <div class="about__header section-header">
+                    <h2>About</h2>
+                </div>
             </div>
             <!--    PROJECTS PAGE   -->
-            <div class="project-page" id="projects">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title">Card Title</h2>
-                        <p class="card-text">This is some text within the card.</p>
-                        <a class="card-button" href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="card card-blue">
-                    <div class="card-body">
-                        <h2 class="card-title">Card Title</h2>
-                        <p class="card-text">This is some text within the card.</p>
-                        <a class="card-button" href="#">Read More</a>
-                    </div>
+            <div class="project" id="projects">
+                <div class="project__header section-header">
+                    <h2>Projects</h2>
                 </div>
             </div>
             <!--    CONTACT PAGE   -->
-            <div class="contact-page" id="contact">
-                <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" class="form-control">
+            <div class="contact" id="contact">
+                <div class="contact__header section-header">
+                    <h2>Contact</h2>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" class="form-control">
-                </div>
-                <div>
-                    <textarea class="form-group"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+                <form class="contact__form">
+                    <div class="contact__form-input">
+                        <input type="text" id="name" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="contact__form-input">
+                        <input type="email" id="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="contact__form-input">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </main>
         <footer>
-            <p> &copy; 2026 Trevin Prester. All rights reserved.</p>
+            <p> Trevin Prester &copy;2026</p>
         </footer>
     </body>
 </html>
