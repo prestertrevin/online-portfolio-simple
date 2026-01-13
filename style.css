@@ -17,7 +17,9 @@ body {
   background-color: #000000;
 }
 .section-header {
-  text-align: center;
+    position: relative;
+    font-size: 3.5rem;
+    padding: 2.5rem;
 }
 
 /* --- Navigation --- */
@@ -50,16 +52,6 @@ body {
 .navigation__item a.active {
   color: #ffffff;
 }
-
-.about {
-  min-height: 100vh;
-}
-.project {
-  min-height: 100vh;
-}
-.contact {
-  min-height: 100vh;
-}
 /* --- Landing Page --- */
 .landing-page {
   background-color: #1D222C;
@@ -72,13 +64,26 @@ body {
   text-align: center;
   font-size: 10vw;
 }
-
-
+/* --- About --- */
+.about {
+  min-height: 100vh;
+}
+.about__header {
+  margin-left: 15%;
+}
+.about__article p{
+  margin-left: 15%;
+  width: 35vw;
+}
 /* --- Projects --- */
-
-
+.project {
+  min-height: 100vh;
+}
 /* -- Contact --- */
-/*
+.contact {
+  text-align: center;
+  min-height: 70vh;
+}
 .contact__form {
   display: flex;
   flex-direction: column;
@@ -87,6 +92,7 @@ body {
 }
 .contact__form-input {
   width: 500px;
+  padding: 5px;
   resize: none;
   border: none;
 }
@@ -107,7 +113,7 @@ body {
   background-color: #192D39;
   color: #E7ECE2;
 }
-*/
+
 /* --- Footer Styles --- */
 footer {
   color: #E7ECE2;
